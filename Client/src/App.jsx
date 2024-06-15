@@ -7,11 +7,10 @@ import Login from './pages/Login'
 export default function App() {
   return (
     <>
-    <Routes>
+      <Routes>
       <Route path='/' element={<Register/>}></Route>
       <Route path='/login' element={<Login/>}></Route>
-    </Routes>
-      
+    </Routes>  
     </>
   )
 }

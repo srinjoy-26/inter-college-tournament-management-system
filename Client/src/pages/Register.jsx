@@ -12,7 +12,18 @@ const Register = () => {
 
       <input type="text" id="p" className='border-2 border-slate-600 p-2 focus:outline-none rounded-md bg-slate-800 placeholder:font-thin text-white' placeholder='username'/>
 
+      <select
+          name=""
+          id=""
+          className="border-2 border-slate-600 p-2 focus:outline-none rounded-md bg-slate-800 text-white"
+        >
+          <option value="true">Organiser</option>
+          <option value="false">Student</option>
+        </select>
+
       <input type="password" id="p" className='border-2 border-slate-600 p-2 focus:outline-none rounded-md bg-slate-800 placeholder:font-thin text-white' placeholder='password'/>
+
+      <input type="password" id="p" className='border-2 border-slate-600 p-2 focus:outline-none rounded-md bg-slate-800 placeholder:font-thin text-white' placeholder='Confirm password'/>
       
       <p className="text-white text-sm font-thin">Already have an account? <Link to='/login' className="text-blue-400">
         Login</Link></p>
